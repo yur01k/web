@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Завдання 1</title>
+</head>
+<body>
+    <script>
+        // Створення об'єкта Date з вказаною датою та часовим поясом
+        const customDate = new Date('2021-02-20T03:12:00');
+
+        // Отримання даних про дату та час
+        const year = customDate.getFullYear();
+        const month = customDate.getMonth() + 1; // Додаємо 1, так як місяці в JavaScript починаються з 0
+        const day = customDate.getDate();
+        const hours = customDate.getHours();
+        const minutes = customDate.getMinutes();
+
+        // Форматування дати та часу
+        const formattedDate = `${day}.${month}.${year} ${hours}:${minutes}`;
+
+        // Виведення результату на сторінку
+        document.write(`Завдання №1: Дата і час: ${formattedDate}`);
+    </script>
+</body>
+</html>
