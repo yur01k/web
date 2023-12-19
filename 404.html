@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Influexa - Contacts</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body class='error-page'>
+	<div class='thetop'></div>
+	<header class="title-font d-flex">
+		<div class="hedaer-item hedaer-item-l">
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="header-row d-flex">
+				<div class="title">
+					Error - 404
+				</div>
+				<a href="index.html">Back to Main page</a>
+			</div>
+		</div>
+		<div class="hedaer-item hedaer-item-r bg">
+			<nav class="main-menu bg d-flex">
+				<div id='icon' class="icon"><i class="fa-solid fa-bars"></i></div>
+				<ul id='menu' class="menu-list">
+					<li><a href="index.html">Main</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<footer>
+		<div class="content-wrap">
+			<div class="footer-row d-flex">
+				<div class="footer-item">
+					<div class="title">
+						Company
+					</div>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Career</a></li>
+					</ul>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						Help
+					</div>
+					<ul>
+						<li><a href="#">Customer Support</a></li>
+						<li><a href="#">Delivery Details</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						Resources
+					</div>
+					<ul>
+						<li><a href="#">Free eBooks</a></li>
+						<li><a href="#">Development Tutorial</a></li>
+						<li><a href="#">How to - Blog</a></li>
+						<li><a href="#">Youtube Playlist</a></li>
+					</ul>
+				</div>
+				<div class="footer-item">
+					<div class="title">
+						Links
+					</div>
+					<ul>
+						<li><a href="#">Free eBooks</a></li>
+						<li><a href="#">Development Tutorial</a></li>
+						<li><a href="#">How to - Blog</a></li>
+						<li><a href="#">Youtube Playlist</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				© Copyright 2022, All Rights Reserved
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+	    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+	      <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+	        
+	      	<div class="modal-title bold mb-20">
+	      		What Interests You?
+	      	</div>
+	      	<form action="#">
+	      		<label for="userName">Name*</label>
+	      		<input type="text" id='userName' placeholder="Enter your name" >
+	      		<label for="email">Email*</label>
+	      		<input type="email" id='email' placeholder="Enter your email">
+	      		<label for="msg">Message</label>
+	      		<textarea name="msg" id="msg" rows="10" placeholder="Enter your message"></textarea>
+
+	      		<input type='submit' class='submit-btn' id='submit' value='Submit'>
+	      	</form>
+	      	<button class="modal__close" aria-label="Close modal" data-micromodal-close><i class="fa-solid fa-xmark"></i></button>
+	      </div>
+	    </div>
+  	</div>
+
+  	<div class='scrolltop'>
+        <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous">
+    </script>
+	<script src='https://unpkg.com/micromodal/dist/micromodal.min.js'></script>
+	<script src='script/micromodal.js'></script>
+	<script src='script/script.js'></script>
+</body>
+</html>
